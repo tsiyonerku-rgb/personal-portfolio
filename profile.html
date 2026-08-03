@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my profile</title>
+         </head>
+    <body>
+        <header>
+            <h1>My Profile</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">about myself</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="images/zi.jpg"alt="picture ofTsiyon Erku" width="250">
+                <p>
+                Hello! My name is <strong>Tsiyon Erku</strong>. I am a <mark>Software Engineering</mark> student at <em>University of wolkite</em>. I am a
+                passionate about web development, programming,
+                and learning new technologies. My goal is to become a Full-Stack
+                Developer and build useful applications that solve real-world problems.
+            </p>
+            </section>
+
+            <section id="skills">
+                <h2>my Skills</h2>
+                <h3>programming langusges</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>c++</li>
+                    <li>Java</li>
+                </ul>
+                <h3>my goals</h3>
+                <ul></ul>
+                    <li>to become a full stack developer</li>
+                    <li>to work as a software engineer</li>
+            </section>
+
+        
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p><strong>Email:</strong> <a href="mailto:tsiyonerku@gmail.com">tsiyonerku@gmail.com</a></p>
+
+    <p><strong>Phone:</strong> <a href="tel:+251960957258">0960957258</a></p>
+
+    <p><strong>Instagram:</strong> <a href="https://www.instagram.com/tsi_erk" target="_blank">tsi_erk</a></p>
+
+    <h3>Send Me a Message</h3>
+
+    <form action="#" method="post">
+
+        <p>
+            <label for="fullname">Full Name:</label><br>
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                required>
+        </p>
+
+        <p>
+            <label for="email">Email Address:</label><br>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required>
+        </p>
+
+        <p>
+            <label for="reason">Reason for Contact:</label><br>
+            <select id="reason" name="reason" required>
+                <option value="">--Select an option--</option>
+                <option value="job">Job Opportunity</option>
+                <option value="collaboration">Collaboration</option>
+                <option value="question">General Question</option>
+            </select>
+        </p>
+
+        <fieldset>
+            <legend>Preferred Contact Method</legend>
+
+            <input
+                type="radio"
+                id="contact-email"
+                name="contact-method"
+                value="Email">
+
+            <label for="contact-email">Email</label>
+
+            <br>
+
+            <input
+                type="radio"
+                id="contact-phone"
+                name="contact-method"
+                value="Phone">
+
+            <label for="contact-phone">Phone</label>
+        </fieldset>
+
+        <br>
+
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="40"
+                placeholder="Write your message here..."
+                required></textarea>
+        </p>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+</section>
+
+
+        </main>
+        <footer>
+            <p>&copy; 2026 Tsiyon Erku. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
