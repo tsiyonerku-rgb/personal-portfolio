@@ -1,2 +1,2 @@
 # personal-portfolio
-A simple HTML portfolio project for my web development assignment.
+A simple HTML portfolio project for my web development assignment that only use html.
